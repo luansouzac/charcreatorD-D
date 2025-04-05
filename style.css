@@ -45,6 +45,7 @@ hr{
 .section1{
     margin-top: 10vh;
 }
-.card-body{
-    
-}
+.card-img-top {
+    height: 90vh;
+    object-fit: cover;
+  }
