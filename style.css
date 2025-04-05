@@ -45,7 +45,16 @@ hr{
 .section1{
     margin-top: 10vh;
 }
+.section1 > *{
+     padding: 0 20vh;
+}
 .card-img-top {
     height: 90vh;
     object-fit: cover;
   }
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.3);
+}
