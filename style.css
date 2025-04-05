@@ -1,0 +1,50 @@
+:root{
+    --pri: #1C1C1C;
+    --sec: #FFFFFF;
+    --terc: #FFD700 ;
+    --quart: #D3D3D3;
+    --preto: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--preto);
+}
+
+#header{
+    background-color: var(--preto);
+    padding: 0;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+    width: max-content;
+    padding: 10px 20px;
+}
+.navbar ul li:hover{
+    transition: 0.3s;
+    background-color: var(--sec);
+    color: var(--pri);
+    cursor: pointer;
+}
+.page{
+    background-color: var(--preto);
+    color: var(--sec);
+}
+hr{
+    color: var(--sec);
+}
+.section1{
+    margin-top: 10vh;
+}
+.card-body{
+    
+}
